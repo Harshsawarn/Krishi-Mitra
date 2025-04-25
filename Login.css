@@ -1,0 +1,19 @@
+.login {
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.login-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

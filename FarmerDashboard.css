@@ -1,0 +1,40 @@
+.farmer-dashboard {
+    padding: 60px 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2e7d32, #e8f5e9);
+    text-align: center;
+  }
+  
+  .farmer-dashboard h2 {
+    font-size: 3rem;
+    color: #f4b400;
+    margin-bottom: 40px;
+  }
+  
+  .crop-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input, .input-file {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .input::placeholder {
+    color: #e8f5e9;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-bottom: 20px;
+  }

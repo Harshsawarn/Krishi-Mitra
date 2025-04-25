@@ -1,0 +1,33 @@
+.farming-calendar {
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.calendar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.farming-calendar h2 {
+  font-size: 3rem;
+  color: #f4b400;
+  margin-bottom: 40px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.calendar-item h3 {
+  font-size: 2rem;
+}
+
+.calendar-item p {
+  font-size: 1rem;
+  color: #e8f5e9;
+  margin: 8px 0;
+}

@@ -1,0 +1,70 @@
+.govt-schemes {
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.schemes-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.govt-schemes h2 {
+  font-size: 3rem;
+  color: #f4b400;
+  margin-bottom: 40px;
+}
+
+.schemes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.scheme-item h3 {
+  font-size: 2rem;
+}
+
+.scheme-item p {
+  color: #e8f5e9;
+  margin: 10px 0;
+}
+
+.scheme-item ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 10px 20px;
+  padding-left: 20px;
+}
+
+.scheme-item li {
+  color: #e8f5e9;
+  margin-bottom: 5px;
+}
+
+.apply-button {
+  background: linear-gradient(45deg, #0288d1, #f4b400);
+}
+
+.eligibility-checker {
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+.eligibility-checker h2 {
+  font-size: 2rem;
+  color: #f4b400;
+}
+
+.eligibility-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eligibility-result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #f4b400;
+}

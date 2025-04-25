@@ -1,0 +1,147 @@
+.profile {
+    padding: 100px 20px 60px; /* Adjusted for fixed navbar */
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .profile-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-details, .weather, .crop-form-section, .purchase-history, .listed-crops, .message-inbox {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .profile-details h3, .weather h3, .crop-form-section h3, .purchase-history h3, .listed-crops h3, .message-inbox h3 {
+    font-size: 2rem;
+    color: #f4b400;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details p, .weather p, .purchase-history p, .listed-crops p, .message-inbox p {
+    font-size: 1.2rem;
+    color: #e8f5e9;
+    margin: 10px 0;
+  }
+  
+  .crop-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-file {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .note {
+    font-size: 0.9rem;
+    color: #f4b400;
+    margin: 10px 0;
+  }
+  
+  .crops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .crop-item {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+  
+  .crop-item h4 {
+    font-size: 1.5rem;
+    color: #f4b400;
+    margin-bottom: 10px;
+  }
+  
+  .crop-item p {
+    font-size: 1rem;
+    color: #e8f5e9;
+  }
+  
+  .crop-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .loading {
+    font-size: 1.2rem;
+    color: #f4b400;
+  }
+  
+  .conversations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .conversation {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .conversation h4 {
+    font-size: 1.5rem;
+    color: #f4b400;
+    margin-bottom: 10px;
+  }
+  
+  .chat-box {
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .chat-box p {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-box p span {
+    font-size: 1rem;
+  }
+  
+  .chat-box p small {
+    font-size: 0.8rem;
+    color: #b0bec5;
+  }
+  
+  .sent {
+    background: #0288d1;
+    color: white;
+    text-align: right;
+  }
+  
+  .received {
+    background: #388e3c;
+    color: white;
+    text-align: left;
+  }
+  
+  .conversation textarea {
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+  }

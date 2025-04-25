@@ -1,0 +1,26 @@
+.signup {
+  padding: 100px 20px 60px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.signup-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.signup-form {
+  padding: 20px;
+}
+
+.signup-form h3 {
+  font-size: 2rem;
+  color: #f4b400;
+  margin-bottom: 20px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
